@@ -73,7 +73,7 @@ ZSH_THEME="robbyrussell"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-#AGREGADOR POR MI
+#AGREGADO POR MI
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # User configuration
