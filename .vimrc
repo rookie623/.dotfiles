@@ -29,7 +29,7 @@ set background=dark
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
-"au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
 " Uncomment the following to have Vim load indentation rules and plugins
 " according to the detected filetype.
@@ -69,3 +69,10 @@ set smartindent
 set colorcolumn=80
 set encoding=utf-8
 highlight ColorColumn ctermbg=1 guibg=lightgrey
+"Mapear teclas" 
+map <C-s> :write<CR> "Salvar cambios con la combinacion Ctrl+s"
+map q :quit<CR> "Salir con la q"
+map <M-Esc> <Esc>
+" Disable annoying beeping
+set noerrorbells
+set vb t_vb=
